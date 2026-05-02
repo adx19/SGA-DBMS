@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    color: #2c3e50;
+}
+header {
+    background: linear-gradient(90deg, #2c3e50, #4ca1af);
+    color: #fff;
+    padding: 20px 40px;
+}
+header h1 { margin: 0; }
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover { text-decoration: underline; }
+.container { padding: 30px 40px; max-width: 1100px; margin: 0 auto; }
+table {
+    width: 100%; border-collapse: collapse; background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-radius: 6px; overflow: hidden;
+}
+th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #34495e; color: #fff; }
+tr:hover { background: #f9fbfd; }
+.btn {
+    display: inline-block; padding: 8px 16px; background: #4ca1af; color: #fff;
+    border-radius: 4px; text-decoration: none; border: none; cursor: pointer; font-size: 14px;
+}
+.btn:hover { background: #2c3e50; }
+.btn-edit { background: #f39c12; }
+.btn-edit:hover { background: #d35400; }
+form.entity-form {
+    background: #fff; padding: 25px; border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 500px;
+}
+form.entity-form label { display: block; margin-top: 12px; font-weight: 600; }
+form.entity-form input, form.entity-form select {
+    width: 100%; padding: 8px; margin-top: 4px;
+    border: 1px solid #ccc; border-radius: 4px; font-size: 14px;
+}
+.error { color: #c0392b; background: #fdecea; padding: 10px; border-radius: 4px; margin: 15px 0; }
+h2 { border-bottom: 2px solid #4ca1af; padding-bottom: 8px; }
+.section { margin-bottom: 40px; }
